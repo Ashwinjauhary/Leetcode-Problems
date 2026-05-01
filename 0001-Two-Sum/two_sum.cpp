@@ -1,22 +1,17 @@
-#include <vector>
-#include <unordered_map>
-
-using namespace std;
-
-class Solution {
+class Solution { //class or container
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> numMap;
-        int n = nums.size();
-
-        for (int i = 0; i < n; i++) {
-            int complement = target - nums[i];
-            if (numMap.count(complement)) {
-                return {numMap[complement], i};
+        for (int i=0;i<nums.size();i++) //Outer loop ; i<num.size() - jab tk array end nhi hota
+        {
+            for (int j= i +1;j<nums.size();j++) //inner loop
+            {
+                if (nums[i]+nums[j]==target ){ //condition two index sum = 9
+                return {i,j}; //indices return
+                }
+                
             }
-            numMap[nums[i]] = i;
+ 
         }
-
-        return {}; // No solution found
+        return {};
     }
 };
