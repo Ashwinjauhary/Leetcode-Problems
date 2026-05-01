@@ -1,17 +1,49 @@
-# LeetCode Solutions
+# 🧠 LeetCode Problems — Ashwin Jauhary
 
-Welcome to my LeetCode problem-solving repository! This repository contains all of my LeetCode solutions, neatly organized by problem name and number.
+> A curated collection of LeetCode solutions in **C++** and **Python**, organized by problem number for easy reference.
 
-## Profile
-You can view my LeetCode profile here: [Ashwin Jauhary's LeetCode Profile](https://leetcode.com/u/VKFWEPzm2q/)
-
-## Structure
-Problems are stored in separate directories, containing the solution and any related notes or thought processes.
-
-### 0001. Two Sum
-- `two_sum.py` - Python 3 solution
-- `two_sum.cpp` - C++ solution
+[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Ashwinjauhary-orange?logo=leetcode)](https://leetcode.com/u/Ashwinjauhary/)
+[![GitHub](https://img.shields.io/badge/GitHub-Ashwinjauhary-181717?logo=github)](https://github.com/Ashwinjauhary)
 
 ---
 
-*This repository is continuously updated as I solve more problems.*
+## 👤 Profile
+**[Ashwin Jauhary on LeetCode →](https://leetcode.com/u/Ashwinjauhary/)**
+
+Full-Stack Developer & AI Systems Engineer. Actively solving algorithmic challenges to sharpen Data Structures & Algorithms skills in C++ and Python.
+
+---
+
+## 📁 Structure
+
+Each problem is in its own numbered folder:
+
+```
+Leetcode-Problems/
+├── 0001-Two-Sum/
+│   ├── two_sum.py
+│   └── two_sum.cpp
+├── 0002-Add-Two-Numbers/
+│   └── ...
+└── ...
+```
+
+---
+
+## ✅ Problems Solved
+
+| # | Problem | Difficulty | Solutions |
+|---|---------|------------|-----------|
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [py](./0001-Two-Sum/two_sum.py) · [cpp](./0001-Two-Sum/two_sum.cpp) |
+
+---
+
+## 🌐 Connect
+
+- 🔗 **Portfolio:** [the-ashwin-jauhary.vercel.app](https://the-ashwin-jauhary.vercel.app)
+- 💼 **LinkedIn:** [ashwin-jauhary](https://www.linkedin.com/in/ashwin-jauhary/)
+- 🐙 **GitHub:** [Ashwinjauhary](https://github.com/Ashwinjauhary)
+
+---
+
+*This repository is continuously updated as I solve more problems. ⭐ Star it to follow my progress!*
